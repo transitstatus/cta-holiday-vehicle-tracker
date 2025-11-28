@@ -68,10 +68,10 @@ const Map = ({ style, dataManagerObject, agencyOverride }) => {
               protomaps: {
                 type: "vector",
                 tiles: [
-                  "https://tilea.piemadd.com/tiles/{z}/{x}/{y}.mvt",
-                  "https://tileb.piemadd.com/tiles/{z}/{x}/{y}.mvt",
-                  "https://tilec.piemadd.com/tiles/{z}/{x}/{y}.mvt",
-                  "https://tiled.piemadd.com/tiles/{z}/{x}/{y}.mvt",
+                  "https://v4mapa.transitstat.us/20251018/{z}/{x}/{y}.mvt",
+                  "https://v4mapb.transitstat.us/20251018/{z}/{x}/{y}.mvt",
+                  "https://v4mapc.transitstat.us/20251018/{z}/{x}/{y}.mvt",
+                  "https://v4mapd.transitstat.us/20251018/{z}/{x}/{y}.mvt",
                   //"http://10.0.0.237:8081/basemap/{z}/{x}/{y}.mvt"
                 ],
                 maxzoom: 13,
